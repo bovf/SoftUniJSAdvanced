@@ -2,16 +2,16 @@
  * 
  * @param {number} firstNumber 
  * @param {number} secondNumber 
- * @param {number} thridNumber 
+ * @param {number} thirdNumber
  */
-function largestNumber(firstNumber, secondNumber, thridNumber) {
+function largestNumber(firstNumber, secondNumber, thirdNumber) {
     let result;
-    if (firstNumber > secondNumber && firstNumber > thridNumber) {
+    if (firstNumber > secondNumber && firstNumber > thirdNumber) {
         result = firstNumber;
-    }else if (secondNumber > firstNumber && secondNumber > thridNumber) {
+    }else if (secondNumber > firstNumber && secondNumber > thirdNumber) {
         result = secondNumber;     
     }else {
-        result = thridNumber
+        result = thirdNumber
     }
     console.log(`The largest number is ${result}.`)
 }
