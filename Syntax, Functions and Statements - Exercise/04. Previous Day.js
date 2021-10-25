@@ -1,7 +1,7 @@
 function previousDay(year, month, day) {
-    const date = new Date(year, month - 1, day);
+    const date = new Date(year, month, day);
     date.setDate(day - 1);
-    console.log(`${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`);
+    console.log(`${date.getFullYear()}-${date.getMonth()}-${date.getDate()}`);
 }
 
 previousDay(2016, 9, 30);
