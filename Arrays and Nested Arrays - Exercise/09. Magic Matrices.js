@@ -100,5 +100,5 @@ console.log(magicMatrix([[1, 0, 0],
 console.log(magicMatrix([[4, 5, 6],
     [6, 5, 4],
     [5, 5, 5],
-    [undefined,undefined,undefined,undefined5]]));
+    [undefined,undefined,undefined, undefined]]));
 console.log(magicMatrix([]))
